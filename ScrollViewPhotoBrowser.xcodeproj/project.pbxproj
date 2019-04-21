@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27E9CE3956ED6EA0147F7EE5 /* Pods_ScrollViewPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518D6B17F29988CA6513557D /* Pods_ScrollViewPhotoBrowser.framework */; };
 		FAE7ECD6226C395300BF9BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7ECD5226C395300BF9BC0 /* AppDelegate.swift */; };
 		FAE7ECD8226C395300BF9BC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7ECD7226C395300BF9BC0 /* ViewController.swift */; };
 		FAE7ECDB226C395300BF9BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE7ECD9226C395300BF9BC0 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		FAE7ECE0226C395500BF9BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE7ECDE226C395500BF9BC0 /* LaunchScreen.storyboard */; };
 		FAE7ECEB226C395500BF9BC0 /* ScrollViewPhotoBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7ECEA226C395500BF9BC0 /* ScrollViewPhotoBrowserTests.swift */; };
 		FAE7ECF6226C395500BF9BC0 /* ScrollViewPhotoBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7ECF5226C395500BF9BC0 /* ScrollViewPhotoBrowserUITests.swift */; };
+		FAE7ED04226C3EA100BF9BC0 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAE7ED03226C3EA000BF9BC0 /* bg.jpg */; };
+		FAE7ED06226C40CA00BF9BC0 /* SimplePhotoBrowser.gif in Resources */ = {isa = PBXBuildFile; fileRef = FAE7ED05226C40C900BF9BC0 /* SimplePhotoBrowser.gif */; };
+		FAE7ED08226C496E00BF9BC0 /* samplePhoto.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAE7ED07226C496E00BF9BC0 /* samplePhoto.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F5DB451AC86EAD54ECEF65E /* Pods-ScrollViewPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollViewPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollViewPhotoBrowser/Pods-ScrollViewPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		518D6B17F29988CA6513557D /* Pods_ScrollViewPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollViewPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		827DD1F3A9908ACB166BD031 /* Pods-ScrollViewPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollViewPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollViewPhotoBrowser/Pods-ScrollViewPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		FAE7ECD2226C395300BF9BC0 /* ScrollViewPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE7ECD5226C395300BF9BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE7ECD7226C395300BF9BC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,9 @@
 		FAE7ECF1226C395500BF9BC0 /* ScrollViewPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE7ECF5226C395500BF9BC0 /* ScrollViewPhotoBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPhotoBrowserUITests.swift; sourceTree = "<group>"; };
 		FAE7ECF7226C395500BF9BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE7ED03226C3EA000BF9BC0 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		FAE7ED05226C40C900BF9BC0 /* SimplePhotoBrowser.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SimplePhotoBrowser.gif; sourceTree = "<group>"; };
+		FAE7ED07226C496E00BF9BC0 /* samplePhoto.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samplePhoto.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E9CE3956ED6EA0147F7EE5 /* Pods_ScrollViewPhotoBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9BF31D78D52D3B1FE4659851 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				518D6B17F29988CA6513557D /* Pods_ScrollViewPhotoBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B68368C74B4D1D7635302953 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				827DD1F3A9908ACB166BD031 /* Pods-ScrollViewPhotoBrowser.debug.xcconfig */,
+				2F5DB451AC86EAD54ECEF65E /* Pods-ScrollViewPhotoBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FAE7ECC9226C395300BF9BC0 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				FAE7ECE9226C395500BF9BC0 /* ScrollViewPhotoBrowserTests */,
 				FAE7ECF4226C395500BF9BC0 /* ScrollViewPhotoBrowserUITests */,
 				FAE7ECD3226C395300BF9BC0 /* Products */,
+				B68368C74B4D1D7635302953 /* Pods */,
+				9BF31D78D52D3B1FE4659851 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +127,9 @@
 		FAE7ECD4226C395300BF9BC0 /* ScrollViewPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				FAE7ED07226C496E00BF9BC0 /* samplePhoto.jpeg */,
+				FAE7ED05226C40C900BF9BC0 /* SimplePhotoBrowser.gif */,
+				FAE7ED03226C3EA000BF9BC0 /* bg.jpg */,
 				FAE7ECD5226C395300BF9BC0 /* AppDelegate.swift */,
 				FAE7ECD7226C395300BF9BC0 /* ViewController.swift */,
 				FAE7ECD9226C395300BF9BC0 /* Main.storyboard */,
@@ -132,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAE7ECFA226C395500BF9BC0 /* Build configuration list for PBXNativeTarget "ScrollViewPhotoBrowser" */;
 			buildPhases = (
+				C3A55E966A88F42C89D3B258 /* [CP] Check Pods Manifest.lock */,
 				FAE7ECCE226C395300BF9BC0 /* Sources */,
 				FAE7ECCF226C395300BF9BC0 /* Frameworks */,
 				FAE7ECD0226C395300BF9BC0 /* Resources */,
+				E021F1B1A599797F1E7947E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,8 +264,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE7ED08226C496E00BF9BC0 /* samplePhoto.jpeg in Resources */,
 				FAE7ECE0226C395500BF9BC0 /* LaunchScreen.storyboard in Resources */,
+				FAE7ED06226C40CA00BF9BC0 /* SimplePhotoBrowser.gif in Resources */,
 				FAE7ECDD226C395500BF9BC0 /* Assets.xcassets in Resources */,
+				FAE7ED04226C3EA100BF9BC0 /* bg.jpg in Resources */,
 				FAE7ECDB226C395300BF9BC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +288,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3A55E966A88F42C89D3B258 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollViewPhotoBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E021F1B1A599797F1E7947E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ScrollViewPhotoBrowser/Pods-ScrollViewPhotoBrowser-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollViewPhotoBrowser/Pods-ScrollViewPhotoBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAE7ECCE226C395300BF9BC0 /* Sources */ = {
@@ -430,6 +515,7 @@
 		};
 		FAE7ECFB226C395500BF9BC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827DD1F3A9908ACB166BD031 /* Pods-ScrollViewPhotoBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +534,7 @@
 		};
 		FAE7ECFC226C395500BF9BC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5DB451AC86EAD54ECEF65E /* Pods-ScrollViewPhotoBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

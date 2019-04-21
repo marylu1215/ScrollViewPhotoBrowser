@@ -1,0 +1,6 @@
+framework module Pods_ScrollViewPhotoBrowser {
+  umbrella header "Pods-ScrollViewPhotoBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}
